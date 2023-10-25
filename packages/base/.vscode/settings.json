@@ -1,0 +1,13 @@
+{
+  // Disabling prettier and formatOnSave to avoid any conflict with vscode-eslint
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.rulers": [
+    80,
+    100
+  ]
+}

@@ -1,4 +1,4 @@
-# Opinionated Pulsar Nuxt3 Layers
+# Opinionated Nuxt3 Layers
 
 ## Packages
 

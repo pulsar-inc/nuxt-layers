@@ -1,44 +1,48 @@
-# Nuxt 3 Minimal Starter
+# Opinionated Pulsar Nuxt3 Layers
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Packages
 
-## Deps tested
+- [@plsr/nuxt-layer-base](https://www.npmjs.com/package/@plsr/nuxt-layer-base)
+    - **Features:**
+        - SASS/SCSS
+        - tailwindcss
+        - eslint/prettier
+        - vscode settings
+- [@plsr/eslint-config-nuxt](https://www.npmjs.com/package/@plsr/eslint-config-nuxt)
+    - **Features:**
+        - Eslint & prettier config
+        - Prettier tailwindcss plugin
 
-- [@nuxtjs/i18n@next](https://v8.i18n.nuxtjs.org/)
+## Recommanded vscode plugin
 
-## Deployment targets tested
+- [dbaeumer.vscode-eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-- https://pages.cloudflare.com/
-- https://vercel.com/
+## Install Layer
 
-## Setup
+1. Install deps
+    ```bash
+    bun i -D nuxt @plsr/nuxt-layer-base
+    ```
 
-Make sure to install the dependencies:
+2. Copy vscode settings
+    ```bash
+    cp -r node_modules/@plsr/nuxt-layer-base/.vscode .
+    ```
 
-```bash
-bun install
-```
+3. Create `.eslintrc.cjs`
+    ```js
+    module.exports = {
+        extends: ["@plsr/nuxt"],
+    };
+    ```
+    or
+    ```bash
+    cp node_modules/@plsr/nuxt-layer-base/.eslintrc.cjs .
+    ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+4. Extend the nuxt config `nuxt.config.ts`
+    ```js
+    export default defineNuxtConfig({
+        extends: ["@plsr/nuxt-layer-base"],
+    });
+    ```

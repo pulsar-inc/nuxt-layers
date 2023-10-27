@@ -5,6 +5,8 @@
 - nuxt-icon
 - SASS/SCSS
 - tailwindcss & postcss
+    - postcss-import
+    - tailwindcss/nesting
 - eslint/prettier
 
 ## Recommanded vscode plugin

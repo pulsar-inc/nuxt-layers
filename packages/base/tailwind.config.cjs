@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["components/**/*.{vue,js,ts}", "pages/**/*.vue"],
+  // https://tailwindcss.nuxtjs.org/tailwind/config#default-configuration
+  content: ["./modules/**/*.{js,ts}"],
 };

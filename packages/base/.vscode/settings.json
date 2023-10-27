@@ -5,6 +5,12 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
   },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.rulers": [
     80,

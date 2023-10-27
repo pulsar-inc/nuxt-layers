@@ -2,8 +2,9 @@
 
 ## Features
 
+- nuxt-icon
 - SASS/SCSS
-- tailwindcss
+- tailwindcss & postcss
 - eslint/prettier
 
 ## Recommanded vscode plugin

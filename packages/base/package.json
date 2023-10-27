@@ -16,6 +16,7 @@
   "dependencies": {
     "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
+    "nuxt-icon": "^0.6.1",
     "@plsr/eslint-config-nuxt": "latest",
     "sass": "^1.69.4"
   },

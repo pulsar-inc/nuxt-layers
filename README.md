@@ -4,8 +4,9 @@
 
 - [@plsr/nuxt-layer-base](https://www.npmjs.com/package/@plsr/nuxt-layer-base)
     - **Features:**
+        - nuxt-icon
         - SASS/SCSS
-        - tailwindcss
+        - tailwindcss & postcss
         - eslint/prettier
         - vscode settings
 - [@plsr/eslint-config-nuxt](https://www.npmjs.com/package/@plsr/eslint-config-nuxt)
@@ -46,3 +47,8 @@
         extends: ["@plsr/nuxt-layer-base"],
     });
     ```
+
+## Other links
+
+- A tool to help generate color shades for Tailwind CSS. https://www.tailwindshades.com/
+- Add Tailwind Color Styles to your figma file. https://www.figma.com/community/plugin/853905984020840743/tailwind-color-palettes

@@ -1,7 +1,7 @@
 {
   "name": "@plsr/nuxt-layer-base",
   "main": "./nuxt.config.ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "devDependencies": {
     "@nuxt/devtools": "^1.0.0",

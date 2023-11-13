@@ -2,12 +2,13 @@
 
 ## Features
 
-- nuxt-icon
-- SASS/SCSS
-- tailwindcss & postcss
-    - postcss-import
-    - tailwindcss/nesting
-- eslint/prettier
+- [nuxt-icon](https://nuxt.com/modules/icon)
+- [nuxt-image](https://image.nuxt.com/)
+- [SASS/SCSS](https://sass-lang.com/)
+- [tailwindcss](https://tailwindcss.nuxtjs.org/) & [postcss](https://postcss.org/)
+    - [postcss-import](https://github.com/postcss/postcss-import)
+    - [tailwindcss/nesting](https://tailwindcss.com/docs/using-with-preprocessors#nesting)
+- [eslint](https://nuxt.com/modules/eslint)/[prettier](https://prettier.io/)
 
 ## Recommanded vscode plugin
 
@@ -27,6 +28,7 @@
 
 3. Create `.eslintrc.cjs`
     ```js
+    /** @type {import('eslint').ESLint.ConfigData} */
     module.exports = {
         extends: ["@plsr/nuxt"],
     };

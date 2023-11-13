@@ -1,7 +1,7 @@
 {
   "name": "@plsr/nuxt-layer-base",
   "main": "./nuxt.config.ts",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "devDependencies": {
     "@nuxt/devtools": "^1.0.0",
@@ -14,6 +14,7 @@
     "prettier-plugin-tailwindcss": "^0.5.6"
   },
   "dependencies": {
+    "@nuxt/image": "^1.0.0",
     "postcss-import": "^15.1.0",
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
     "@nuxtjs/eslint-module": "^4.1.0",

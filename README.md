@@ -5,6 +5,7 @@
 - [@plsr/nuxt-layer-base](https://www.npmjs.com/package/@plsr/nuxt-layer-base)
     - **Features:**
         - nuxt-icon
+        - nuxt-image
         - SASS/SCSS
         - tailwindcss & postcss
         - eslint/prettier

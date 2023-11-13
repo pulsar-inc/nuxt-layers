@@ -32,6 +32,7 @@
 
 3. Create `.eslintrc.cjs`
     ```js
+	/** @type {import('eslint').ESLint.ConfigData} */
     module.exports = {
         extends: ["@plsr/nuxt"],
     };

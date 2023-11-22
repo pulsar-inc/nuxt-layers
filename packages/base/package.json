@@ -16,7 +16,7 @@
     "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/tailwindcss": "^6.10.0",
     "nuxt-icon": "^0.6.6",
-    "@plsr/eslint-config-nuxt": "latest",
+    "@plsr/eslint-config-nuxt": "workspace:*",
     "sass": "^1.69.5"
   },
   "scripts": {

@@ -1,9 +1,9 @@
 {
   // Disabling prettier and formatOnSave to avoid any conflict with vscode-eslint
   "prettier.enable": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
+    "source.fixAll": "explicit",
   },
   "files.associations": {
     "*.css": "tailwindcss"

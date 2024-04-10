@@ -60,5 +60,6 @@
 ```bash
 bunx changeset
 bunx changeset version
+bun i
 ```
 Then push on branch master

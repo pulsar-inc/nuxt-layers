@@ -5,7 +5,7 @@
     "dev": "nuxt dev playground",
     "lint": "eslint .",
     "lintfix": "eslint . --fix",
-    "publish": "turbo build && changeset"
+    "publish": "turbo build && changeset publish"
   },
   "type": "module",
   "workspaces": [

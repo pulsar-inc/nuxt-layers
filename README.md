@@ -52,3 +52,13 @@
 
 - A tool to help generate color shades for Tailwind CSS. https://www.tailwindshades.com/
 - Add Tailwind Color Styles to your figma file. https://www.figma.com/community/plugin/853905984020840743/tailwind-color-palettes
+
+## Repo managment
+
+### New version
+
+```bash
+bunx changeset
+bunx changeset version
+```
+Then push on branch master

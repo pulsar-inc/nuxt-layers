@@ -60,6 +60,5 @@
 ```bash
 bunx changeset
 bunx changeset version
-bun i
+bunx @morlay/bunpublish
 ```
-Then push on branch master

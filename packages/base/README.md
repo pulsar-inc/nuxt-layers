@@ -21,21 +21,19 @@
     bun i -D nuxt @plsr/nuxt-layer-base
     ```
 
-2. Copy vscode config
+2. Copy vscode settings
     ```bash
     cp -r node_modules/@plsr/nuxt-layer-base/.vscode .
     ```
 
-3. Create `.eslintrc.cjs`
-    ```js
-    /** @type {import('eslint').ESLint.ConfigData} */
-    module.exports = {
-        extends: ["@plsr/nuxt"],
-    };
+3. Create `eslint.config.mjs`
+    ```mjs
+    import config from "@plsr/eslint-config-nuxt";
+    export default config;
     ```
     or
     ```bash
-    cp node_modules/@plsr/nuxt-layer-base/.eslintrc.cjs .
+    cp node_modules/@plsr/nuxt-layer-base/eslint.config.mjs .
     ```
 
 4. Extend the nuxt config `nuxt.config.ts`

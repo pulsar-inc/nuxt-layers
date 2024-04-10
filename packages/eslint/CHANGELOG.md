@@ -1,5 +1,11 @@
 # @plsr/eslint-config-nuxt
 
+## 1.0.0
+
+### Major Changes
+
+- Migrate to eslint flat configs
+
 ## 0.0.7
 
 ### Patch Changes

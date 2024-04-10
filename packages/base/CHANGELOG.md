@@ -1,5 +1,16 @@
 # @plsr/nuxt-layer-base
 
+## 1.0.0
+
+### Major Changes
+
+- Migrate to eslint flat configs
+
+### Patch Changes
+
+- Updated dependencies
+  - @plsr/eslint-config-nuxt@1.0.0
+
 ## 0.0.11
 
 ### Patch Changes

@@ -20,6 +20,6 @@
     "@changesets/cli": "^2.27.1",
     "@nuxt/eslint": "^0.3.5",
     "@nuxt/eslint-config": "^0.3.5",
-    "turbo": "^1.13.2"
+    "turbo": "^2.0.3"
   }
 }

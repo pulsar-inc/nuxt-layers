@@ -1,5 +1,11 @@
 # @plsr/nuxt-layer-base
 
+## 1.0.1
+
+### Patch Changes
+
+- Fix bun publish
+
 ## 1.0.0
 
 ### Major Changes

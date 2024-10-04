@@ -1,23 +1,23 @@
 {
   "name": "@plsr/nuxt-layer-base",
   "main": "./nuxt.config.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "devDependencies": {
-    "@nuxt/devtools": "^1.1.5",
-    "eslint": "^9.0.0",
-    "nuxt": "^3.11.2",
-    "prettier": "^3.2.5"
+    "@nuxt/devtools": "^1.5.2",
+    "eslint": "^9.11.1",
+    "nuxt": "^3.13.2",
+    "prettier": "^3.3.3"
   },
   "dependencies": {
-    "@nuxt/image": "^1.5.0",
+    "@nuxt/image": "^1.8.1",
     "postcss-import": "^16.1.0",
     "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
     "@nuxtjs/eslint-module": "^4.1.0",
-    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@nuxtjs/tailwindcss": "^6.12.1",
     "nuxt-icon": "^0.6.10",
     "@plsr/eslint-config-nuxt": "workspace:*",
-    "sass": "^1.74.1"
+    "sass": "^1.79.4"
   },
   "scripts": {
     "build": "nuxt build",

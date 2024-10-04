@@ -1,5 +1,13 @@
 # @plsr/nuxt-layer-base
 
+## 1.0.2
+
+### Patch Changes
+
+- Upgrade deps
+- Updated dependencies
+  - @plsr/eslint-config-nuxt@1.0.1
+
 ## 1.0.1
 
 ### Patch Changes
